@@ -1,0 +1,33 @@
+show database
+\list
+
+clear screen 
+\! cls
+
+
+change one database to an ohter one 
+\c database name
+
+create table 
+create table tablename (
+    id: init unique
+    name varchar(10)
+)
+
+insert into person (id, name, city) values (101, 'raju', 'delhi');  
+insert into person  values (101, 'raju', 'delhi');  
+update person set city='london' where id=123;
+delete from person where id=101
+
+ 
+
+select * from person; 
+
+show tables in the pg admin go to the database then go schema public and see tables 
+but in the psql tool
+\d tables name 
+
+
+
+
+
